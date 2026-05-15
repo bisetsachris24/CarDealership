@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class DealershipFileManager {
-    private static final String INVENTORY_FILE = "inventory.csv";
+    private static final String INVENTORY_FILE = "src/main/resources/inventory.csv";
 
     public Dealership getDealership() {
         Dealership dealership = null;

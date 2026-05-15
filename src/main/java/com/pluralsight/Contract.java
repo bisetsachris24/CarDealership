@@ -13,6 +13,14 @@ public class Contract {
         this.vehicleSold = vehicleSold;
     }
 
+    public double getTotalPrice() {
+        return 0;
+    }
+
+    public double getMonthlyPayment() {
+        return 0;
+    }
+
     public String getDate() {
         return date;
     }
